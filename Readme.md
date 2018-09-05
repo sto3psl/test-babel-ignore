@@ -1,5 +1,7 @@
 # Test Babel CLI `--ignore` flag
 
+Related issue: https://github.com/babel/babel/issues/8631
+
 With the update of Babel to version `7.0.0` it seems like the `--ignore` flag of `@babel/cli` gets ignored (hehe). This is a repository that can reliably reproduce that bug.
 
 To try it out clone the repository.
