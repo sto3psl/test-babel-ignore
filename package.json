@@ -1,0 +1,21 @@
+{
+  "name": "test-babel-ignore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf lib lib-old",
+    "start": "./node_modules/@babel/cli/bin/babel.js src --out-dir lib --ignore ignore.js",
+    "ignore": "./node_modules/@babel/cli/bin/babel.js src --out-dir lib --ignore ignore.js,test.js",
+    "start-old": "./node_modules/babel-cli/bin/babel.js src --out-dir lib-old --ignore ignore.js",
+    "ignore-old": "./node_modules/babel-cli/bin/babel.js src --out-dir lib-old --ignore ignore.js,test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.0.0",
+    "@babel/core": "7.0.0",
+    "babel-cli": "6.26.0"
+  }
+}
