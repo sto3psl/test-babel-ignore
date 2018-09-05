@@ -94,7 +94,7 @@ Actual result:
 index.ignore.js index.js        index.test.js
 ```
 
-All 3 files get compile even tough `@babel/cli` should ignore `index.ignore.js`. And lists also don't work:
+All 3 files get compiled even though `@babel/cli` should ignore `index.ignore.js`. And lists also don't work:
 
 ```
 ❯ npm run ignore
