@@ -1,3 +1,9 @@
+**I will leave this up for people that run into the same issue. The `--ignore` flag works but since Babel 7 it only accepts proper glob patterns. Documentation is updated here:**
+
+**https://babeljs.io/docs/en/babel-cli#ignore-files**
+
+---
+
 # Test Babel CLI `--ignore` flag
 
 Related issue: https://github.com/babel/babel/issues/8631
